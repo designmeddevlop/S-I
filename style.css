@@ -1,0 +1,102 @@
+body {
+    background:linear-gradient(rgb(151, 216, 241),pink);
+    text-align: center;
+    font-family: 'Happy Monkey',sans-serif;
+    color: #ffffff;
+}
+
+h1 {
+    text-shadow: 0px 0px 1px black;
+}
+
+.foto-pro {
+    width: 200px;
+    border: 6px solid purple;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#age {
+    background: purple;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#date {
+    background: purple;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.section {
+    margin-top: 50px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.hint {
+    margin-top: 0;
+}
+
+.gift {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid purple;
+    border-radius: 10px;
+    background-image: url(image/gift-card-blank.jpg);
+    background-size: cover;
+}
+
+#gift-happy:hover{
+    background-image: url(image/Happy\ Birthday\ GIF\ by\ Rodney\ Dangerfield.gif);
+}
+
+#gift-hote:hover{
+    background-image: url(image/Cool\ Down\ Golden\ Girls\ GIF.gif);
+}
+
+#gift-genuis:hover{
+    background-image: url(image/Think\ Season\ 2\ GIF\ by\ NBC.gif);
+}
+
+#gift-badass:hover{
+    background-image: url(image/badass\ ironman\ GIF.gif);
+}
+
+#gift-love:hover{
+    height: 200px;
+    background-image: url(image/Celebrate\ In\ Love\ GIF\ by\ Max.gif);
+}
+
+#gift-love:hover{
+    height: 200px;
+}
+
+#gift-love {
+    height: 200px;
+}
+
+.footer {
+    width: 400;
+    font-style: italic;
+    margin: 40px auto 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
